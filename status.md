@@ -3,3 +3,4 @@
 [2026-06-09 20:43:07] PR #120 merged: skills YAML frontmatter
 [2026-06-09 20:43:44] SPEC 012 and 013 committed to branch for protection — both GATE-2 ready
 [2026-06-09 20:44:07] PR #122 merged: contacts picker logger fix
+[2026-06-09 20:46:24] SPEC 012 implementation started
