@@ -14,3 +14,4 @@
 [2026-06-10 14:01:10] Pending approvals diagnostic complete
 [2026-06-10 14:04:29] BLOCKER: PR #136 not merged — GitHub Actions billing failed (failed payment / spending limit), so fast-gate, ios-tests, and codex-review never ran. Fix billing, re-run CI, then merge. Webhook reload deferred until merge.
 [2026-06-10 14:08:33] PR #136 still blocked: reran all 3 checks (fresh 18:07 attempts) but GitHub still returns the Actions billing/spending-limit error. Not merging. Likely propagation lag or spending limit still capped at $0.
+[2026-06-10 14:47:50] PR #136 merged — Twilio diagnostic logging live
