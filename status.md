@@ -12,3 +12,4 @@
 [2026-06-10 13:55:32] PR #136 opened: twilio inbound diagnostic logging (no auth bypass, sender-only). Declined prescribed TWILIO_SKIP_VALIDATION bypass + body logging + push-to-main. 19/19 tests pass.
 [2026-06-10 13:57:49] Pending-approvals diagnostic: session start on main @ 5126167
 [2026-06-10 14:01:10] Pending approvals diagnostic complete
+[2026-06-10 14:04:29] BLOCKER: PR #136 not merged — GitHub Actions billing failed (failed payment / spending limit), so fast-gate, ios-tests, and codex-review never ran. Fix billing, re-run CI, then merge. Webhook reload deferred until merge.
