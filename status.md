@@ -35,3 +35,4 @@
 [2026-06-12 11:47:07] slow-evals diagnostic complete
 [2026-06-12 11:53:09] Phase 1 done: SPEC 021 (PR #141) + DR docs (PR #140). Starting Phase 2 serialized: SPEC 020 (anonymization)
 [2026-06-12 12:03:50] SPEC 020 done (PR #142, fail-closed de-id, 59/59). Starting SPEC 022 (caregiver) stacked on 020
+[2026-06-12 12:06:12] SPEC022 subagent: read spec+all target files in full. Reconciliation: kid_activities uses LAZY _migrate_* pattern (not numbered migration 010/011) per spec authority. Starting implementation.
