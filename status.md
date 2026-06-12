@@ -43,3 +43,4 @@
 [2026-06-12 13:10:34] PR #140 merged (DR docs GITHUB_TOKEN)
 [2026-06-12 13:36:58] PR #141 merged (custody schedule SPEC 021); local gate red = 3 known no-API-key failures only, CI green
 [2026-06-12 13:38:38] PR #142 merged (child anonymization SPEC 020, fail-closed). #143 blocked on Actions quota (your billing), #144 held for review.
+[2026-06-12 13:39:16] CI investigation done. Root cause: GitHub Actions minutes exhausted (free private repo) -> #143/#144 checks fail with no runner. Merged #140/#141/#142 (CI-green; local-gate reds were missing-API-key only). #143 retargeted to main, blocked on your billing fix. #144 held for review.
