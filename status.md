@@ -16,3 +16,4 @@
 [2026-06-10 14:08:33] PR #136 still blocked: reran all 3 checks (fresh 18:07 attempts) but GitHub still returns the Actions billing/spending-limit error. Not merging. Likely propagation lag or spending limit still capped at $0.
 [2026-06-10 14:47:50] PR #136 merged — Twilio diagnostic logging live
 [2026-06-12 06:16:00] Starting parallel session — ProxyFix + CC config Opus 4.8
+[2026-06-12 06:17:24] Starting 4-subagent spec session
