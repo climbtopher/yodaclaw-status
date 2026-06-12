@@ -41,3 +41,4 @@
 [2026-06-12 12:55:37] All 5 done — SPEC 021 (#141), 020 (#142), 022 (#143 stacked), 019 (#144 stacked, hook inert), DR docs (#140). Merge order: 020->022->019; 021+docs independent.
 [2026-06-12 13:05:33] CI failures on #143/#144 are infra (no runner assigned, billing/scheduling). Reran 4 checks; polling.
 [2026-06-12 13:10:34] PR #140 merged (DR docs GITHUB_TOKEN)
+[2026-06-12 13:36:58] PR #141 merged (custody schedule SPEC 021); local gate red = 3 known no-API-key failures only, CI green
