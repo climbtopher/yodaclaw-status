@@ -40,3 +40,4 @@
 [2026-06-12 12:40:18] SPEC 022 done (PR #143, 60/60, iOS build OK). Starting SPEC 019 (autonomous pipeline) — LAST, stacked on 022, Stop hook inert by default, flagged HIGH blast-radius
 [2026-06-12 12:55:37] All 5 done — SPEC 021 (#141), 020 (#142), 022 (#143 stacked), 019 (#144 stacked, hook inert), DR docs (#140). Merge order: 020->022->019; 021+docs independent.
 [2026-06-12 13:05:33] CI failures on #143/#144 are infra (no runner assigned, billing/scheduling). Reran 4 checks; polling.
+[2026-06-12 13:10:34] PR #140 merged (DR docs GITHUB_TOKEN)
