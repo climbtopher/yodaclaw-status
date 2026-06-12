@@ -42,3 +42,4 @@
 [2026-06-12 13:05:33] CI failures on #143/#144 are infra (no runner assigned, billing/scheduling). Reran 4 checks; polling.
 [2026-06-12 13:10:34] PR #140 merged (DR docs GITHUB_TOKEN)
 [2026-06-12 13:36:58] PR #141 merged (custody schedule SPEC 021); local gate red = 3 known no-API-key failures only, CI green
+[2026-06-12 13:38:38] PR #142 merged (child anonymization SPEC 020, fail-closed). #143 blocked on Actions quota (your billing), #144 held for review.
