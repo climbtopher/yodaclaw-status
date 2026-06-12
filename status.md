@@ -29,3 +29,4 @@
 [2026-06-12 06:28:11] SPEC 022 caregiver activity association drafted
 [2026-06-12 09:18:29] PR #137 merged: CC config Opus 4.8
 [2026-06-12 09:20:04] PR #138 merged: GITHUB_TOKEN in plist
+[2026-06-12 09:22:18] PR #139 merged: ProxyFix Twilio signature fix
