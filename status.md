@@ -36,3 +36,4 @@
 [2026-06-12 11:53:09] Phase 1 done: SPEC 021 (PR #141) + DR docs (PR #140). Starting Phase 2 serialized: SPEC 020 (anonymization)
 [2026-06-12 12:03:50] SPEC 020 done (PR #142, fail-closed de-id, 59/59). Starting SPEC 022 (caregiver) stacked on 020
 [2026-06-12 12:06:12] SPEC022 subagent: read spec+all target files in full. Reconciliation: kid_activities uses LAZY _migrate_* pattern (not numbered migration 010/011) per spec authority. Starting implementation.
+[2026-06-12 12:39:15] SPEC022 PR #143 opened (stacked on SPEC020): https://github.com/climbtopher/OpenClaw-Assistant/pull/143 — fast gate 60/60, iOS sim tests pass
