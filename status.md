@@ -17,3 +17,4 @@
 [2026-06-10 14:47:50] PR #136 merged — Twilio diagnostic logging live
 [2026-06-12 06:16:00] Starting parallel session — ProxyFix + CC config Opus 4.8
 [2026-06-12 06:17:24] Starting 4-subagent spec session
+[2026-06-12 06:21:57] Subagent 3 done: SPEC 021 custody schedule drafted
