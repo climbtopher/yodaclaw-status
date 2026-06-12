@@ -38,3 +38,4 @@
 [2026-06-12 12:06:12] SPEC022 subagent: read spec+all target files in full. Reconciliation: kid_activities uses LAZY _migrate_* pattern (not numbered migration 010/011) per spec authority. Starting implementation.
 [2026-06-12 12:39:15] SPEC022 PR #143 opened (stacked on SPEC020): https://github.com/climbtopher/OpenClaw-Assistant/pull/143 — fast gate 60/60, iOS sim tests pass
 [2026-06-12 12:40:18] SPEC 022 done (PR #143, 60/60, iOS build OK). Starting SPEC 019 (autonomous pipeline) — LAST, stacked on 022, Stop hook inert by default, flagged HIGH blast-radius
+[2026-06-12 12:55:37] All 5 done — SPEC 021 (#141), 020 (#142), 022 (#143 stacked), 019 (#144 stacked, hook inert), DR docs (#140). Merge order: 020->022->019; 021+docs independent.
