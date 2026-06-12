@@ -26,3 +26,4 @@
 [2026-06-12 06:25:11] Subagent 1 done: ProxyFix PR opened — https://github.com/climbtopher/OpenClaw-Assistant/pull/139
 [2026-06-12 06:25:12] Subagent 2 done: CC config Opus 4.8 PR opened — https://github.com/climbtopher/OpenClaw-Assistant/pull/137
 [2026-06-12 06:25:14] Both PRs open — ProxyFix (#139) and CC Opus 4.8 config (#137). NOTE: corrected effort->effortLevel; ProxyFix unverified vs live Twilio until carrier approval
+[2026-06-12 06:28:11] SPEC 022 caregiver activity association drafted
