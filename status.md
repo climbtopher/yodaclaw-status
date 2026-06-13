@@ -45,3 +45,4 @@
 [2026-06-12 13:38:38] PR #142 merged (child anonymization SPEC 020, fail-closed). #143 blocked on Actions quota (your billing), #144 held for review.
 [2026-06-12 13:39:16] CI investigation done. Root cause: GitHub Actions minutes exhausted (free private repo) -> #143/#144 checks fail with no runner. Merged #140/#141/#142 (CI-green; local-gate reds were missing-API-key only). #143 retargeted to main, blocked on your billing fix. #144 held for review.
 [2026-06-12 14:26:47] PR #144 CI investigation complete: codex-review + ios-tests both blocked by unresolved GitHub Actions billing (payment failed / spending limit) — same root cause as #143, not started, 0 steps. No rerun (would loop forever until billing fixed). NOT merged — awaiting Chris review + explicit approval.
+[2026-06-12 22:16:23] SPEC 019 security fixes applied + re-review APPROVE — see docs/SECURITY_REVIEW_spec019_v2.md
