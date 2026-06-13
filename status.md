@@ -47,3 +47,4 @@
 [2026-06-12 14:26:47] PR #144 CI investigation complete: codex-review + ios-tests both blocked by unresolved GitHub Actions billing (payment failed / spending limit) — same root cause as #143, not started, 0 steps. No rerun (would loop forever until billing fixed). NOT merged — awaiting Chris review + explicit approval.
 [2026-06-12 22:16:23] SPEC 019 security fixes applied + re-review APPROVE — see docs/SECURITY_REVIEW_spec019_v2.md
 [2026-06-12 22:19:52] openclaw-update-key.sh now updates GitHub Actions secret automatically
+[2026-06-12 22:24:42] maven repo seeded; foundation ported
