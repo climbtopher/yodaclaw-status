@@ -86,3 +86,4 @@
 [2026-06-14 19:21:37] M010 (memory subsystem) merged — memory-isolation-gate GREEN in CI. Reconciled M004xM010 de-id backend (added missing PostgresEntityMap). Handled a concurrent push to impl/M010 mid-merge. On to M009.
 [2026-06-14 19:22:02] Wave 4 merged — M006 M010 M009. 9/15 specs on main.
 [2026-06-14 19:25:37] Trust-writer integration merged (PR16) — M006 _record delegates sender trust to M011 source_trust (guarded). Wave 4 complete.
+[2026-06-14 19:36:59] M011 (source-trust + integrity) merged. Removed import guard; rewired chokepoint _record to M011's real Sender-based earn_trust/demote API (runbook assumed wrong signature). Resolved sanitize-wiring conflicts + 3 cross-spec tests. 218 tests green.
