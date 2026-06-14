@@ -67,3 +67,4 @@
 [2026-06-14 16:06:50] M011 complete — PR #9 opened (source-trust single-writer + sanitize injection defense + adversarial eval seeding). 37 tests pass, injection-resistance 100%. DO NOT MERGE — handed off to verify + security-review.
 [2026-06-14 16:43:26] Wave 5 complete — M007 PR#11 + M011 PR#9 (HIGH APPROVE) + M012 PR#10 open
 [2026-06-14 16:54:16] M013 conflict detection complete — PR #13 opened (HIGH blast radius, awaiting verify + security-review). 14 tests pass; conflicts+calendar_accounts tables with RLS enable+force+isolation; gated resolve via M006 resolve_conflict (Conservative floor); primary-source-wins. NOT merged.
+[2026-06-14 17:22:21] Wave 6 complete — M008 PR#12 + M013 PR#13 + M014 PR#14 open. Starting M015.
