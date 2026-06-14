@@ -63,3 +63,4 @@
 [2026-06-14 15:31:53] Wave 3 complete — M003 PR #4 (HIGH, APPROVE) + M005 PR #5 open
 [2026-06-14 15:51:55] Wave 4 complete — M006 PR#8 (HIGH APPROVE) + M009 PR#6 + M010 PR#7 (HIGH APPROVE) open
 [2026-06-14 15:53:04] M011 session start — source-trust & information integrity (HIGH blast radius)
+[2026-06-14 15:54:24] M011 read complete — building source_trust.py (single writer) + sanitize.py + adversarial eval seeding
