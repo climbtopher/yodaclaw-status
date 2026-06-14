@@ -60,3 +60,4 @@
 [2026-06-14 15:06:20] M002 PR #2: fast-gate + isolation-gate GREEN (cross-family read/write/insert denial + clean fail-closed proven on a real pgvector DB as non-superuser role). Fixed 3 CI root causes: migrate-as-owner in test, DB-free static RLS tests (pytest exit-5), NULLIF empty-string GUC fail-closed, conftest import path. codex-review (gpt-4o advisory) still NEEDS CHANGES — items addressed-by-design/out-of-scope-per-spec. security-review agent produced NO verdict (malformed tool call, harness failure) — needs re-spawn before HIGH merge.
 [2026-06-14 15:10:57] Wave 2 complete — M002 PR #2 (HIGH, security-review APPROVE) + M004 PR #3 open
 [2026-06-14 15:30:27] M005 complete — PR #5 opened (Gmail readonly multi-account ingestion, queue exception, 60s raw delete). 38 tests pass; all CI gates clean locally. HIGH blast radius — awaiting security-review + tenant-isolation-check.
+[2026-06-14 15:31:53] Wave 3 complete — M003 PR #4 (HIGH, APPROVE) + M005 PR #5 open
