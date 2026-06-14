@@ -75,3 +75,4 @@
 [2026-06-14 17:50:15] Overnight implementation sprint complete — 15 PRs open, fast-gate green 15/15, 6 HIGH APPROVE, report in docs/IMPLEMENTATION_REPORT.md
 [2026-06-14 17:53:23] M010 memory-isolation-gate now GREEN — both DB isolation gates pass; 15/15 fast-gate green; report updated
 [2026-06-14 18:34:30] Maven merge sprint START — 15 PRs open, fast-gate green, main clean. Reading state, capturing current branch protection before changes.
+[2026-06-14 18:39:34] Pre-flight done. Findings: (1) branch protection unavailable on this plan -> STEP 0 moot, codex-review already non-blocking, will verify fast-gate per wave. (2) migrate.py is a glob runner (no entries to edit). (3) Strengthening M008 SQL to M002 RLS standard (FORCE RLS + fail-closed NULLIF GUC) - runbook's SQL omitted FORCE. (4) py3.11 venv built (Xcode 3.9.6 breaks suite). Starting pre-merge fixes.
