@@ -55,3 +55,4 @@
 [2026-06-14 14:13:51] Gate-2 complete — 15 specs approved
 [2026-06-14 14:32:54] CI workflows ready (fast-gate + codex-review) — starting Wave 1
 [2026-06-14 14:41:11] Wave 1 complete — M001 PR #1 open
+[2026-06-14 14:55:32] M004 implementation complete — model seam + fail-closed de-id + eval harness + adversarial corpus; 20 tests pass; opening PR (no merge)
