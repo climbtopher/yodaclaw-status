@@ -84,3 +84,4 @@
 [2026-06-14 19:01:44] Wave 3 merged — M003 (identity+auth) + M005 (email ingestion). Resolved real merge conflicts in both: M003 app.py (M002 tenant-scope plumbing + M003 auth imports union, aligned fail-closed test 503->500); M005 app.py (g.member_id), worker/pipeline.py, conftest.py. Full suites green (92 / 130).
 [2026-06-14 19:15:43] M006 (authority gate + chokepoint) merged. Resolved deep M005<->M006 integration: unified _lookup_source_trust to db_seam getters (fake-able by both specs' tests); updated stale tests (M006 implemented /approvals 501-stub; chokepoint test now exempts append-only audit_log provenance, keeps all state/decision tables strict). 176 tests green.
 [2026-06-14 19:21:37] M010 (memory subsystem) merged — memory-isolation-gate GREEN in CI. Reconciled M004xM010 de-id backend (added missing PostgresEntityMap). Handled a concurrent push to impl/M010 mid-merge. On to M009.
+[2026-06-14 19:22:02] Wave 4 merged — M006 M010 M009. 9/15 specs on main.
