@@ -53,3 +53,4 @@
 [2026-06-13 09:24:10] Phase 3 complete — all 15 specs drafted
 [2026-06-14 14:00:50] CLAUDE.md added to Maven repo
 [2026-06-14 14:13:51] Gate-2 complete — 15 specs approved
+[2026-06-14 14:32:54] CI workflows ready (fast-gate + codex-review) — starting Wave 1
