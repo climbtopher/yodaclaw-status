@@ -69,3 +69,4 @@
 [2026-06-14 16:54:16] M013 conflict detection complete — PR #13 opened (HIGH blast radius, awaiting verify + security-review). 14 tests pass; conflicts+calendar_accounts tables with RLS enable+force+isolation; gated resolve via M006 resolve_conflict (Conservative floor); primary-source-wins. NOT merged.
 [2026-06-14 17:22:21] Wave 6 complete — M008 PR#12 + M013 PR#13 + M014 PR#14 open. Starting M015.
 [2026-06-14 17:24:00] M015 backend agent: diagnostics read (spec, build plan, pipeline.py, deidentify.py, dreaming.py, CI gates). Beginning implementation in /Users/yoda/dev/maven-M015 on impl/M015.
+[2026-06-14 17:32:15] M015 implementation complete: fail-closed retention sweeper + admission gate + 5 governing docs + iOS privacy manifest + sweeper IaC + DR doc. 18 tests pass; CI secret/isolation/de-id gates clean locally. Opening PR (no merge).
