@@ -80,3 +80,4 @@
 [2026-06-14 18:46:35] Pre-merge fix 2 DONE — M014 admission gate wired (impl/M014). api/admission.py + 403 onboarding_not_open before bootstrap, email from validated Apple identity. Caught+fixed: gate broke existing happy-path test (no email) so updated it; gate is None-safe fail-closed. 22 tests pass.
 [2026-06-14 18:49:19] Pre-merge fix 3 DONE — M003 added guarded GRANT EXECUTE on resolve_member_by_apple_sub SECURITY DEFINER to maven_app (was REVOKEd from PUBLIC but never granted -> app role couldn't call it). Auth path already correct. 58 tests pass. Now verifying all 3 fixes fast-gate green before Wave 1.
 [2026-06-14 18:51:12] Wave 1 merged — M001 (Cloud foundation). main now has requirements.txt, infra/ IaC, conftest.py, Dockerfile.
+[2026-06-14 18:52:12] Wave 2 merged — M002 (multi-tenant schema + RLS, isolation-gate green) + M004 (model seam + eval). Isolation gate static layer passes on main; live cross-family proof was CI isolation-gate green on PR2.
