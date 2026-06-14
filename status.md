@@ -85,3 +85,4 @@
 [2026-06-14 19:15:43] M006 (authority gate + chokepoint) merged. Resolved deep M005<->M006 integration: unified _lookup_source_trust to db_seam getters (fake-able by both specs' tests); updated stale tests (M006 implemented /approvals 501-stub; chokepoint test now exempts append-only audit_log provenance, keeps all state/decision tables strict). 176 tests green.
 [2026-06-14 19:21:37] M010 (memory subsystem) merged — memory-isolation-gate GREEN in CI. Reconciled M004xM010 de-id backend (added missing PostgresEntityMap). Handled a concurrent push to impl/M010 mid-merge. On to M009.
 [2026-06-14 19:22:02] Wave 4 merged — M006 M010 M009. 9/15 specs on main.
+[2026-06-14 19:25:37] Trust-writer integration merged (PR16) — M006 _record delegates sender trust to M011 source_trust (guarded). Wave 4 complete.
