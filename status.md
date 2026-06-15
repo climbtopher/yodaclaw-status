@@ -91,3 +91,4 @@
 [2026-06-14 19:55:59] Wave 5 merged — M007 M011 M012 (12/15). Fork finished M012 cross-spec test fixes. On to executor-reconcile + wave 6.
 [2026-06-14 20:01:45] 13/15 merged (through M008). M013 merge (executor reconciliation: queue.py canonical, executors.py shimmed) running in a background fork. M015 disposition CONFIRMED = HOLD: all 7 counsel checklist items unchecked + COUNSEL_REVIEW_COMPLETE unset -> onboarding stays closed, M015 does not merge. Plan: merge M013 + M014 (14/15), hold M015, write MERGE_STATUS.md.
 [2026-06-15 13:22:51] maven-update-key.sh + maven-get-key.sh written & verified in ~ (Keychain→SecretsManager→GitHub). Repo commit HELD: maven is mid-merge on pr13-resolve (4 conflicted HIGH-blast files) — scripts/ copy + .gitignore + CLAUDE.md deferred until PR13 resolves on main.
+[2026-06-15 13:53:47] AWS Phase 1 complete — infrastructure ready
