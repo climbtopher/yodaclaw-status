@@ -94,3 +94,4 @@
 [2026-06-15 13:53:47] AWS Phase 1 complete — infrastructure ready
 [2026-06-15 16:49:40] PR13 merge: 4 conflicts resolved (chokepoint invariants intact), but fast-gate red (12/299) from a cross-merge M012/M013 test-API inconsistency touching the chokepoint test. Per HIGH-blast-radius gate: running read-only diagnostic before any reconcile/commit. Nothing committed.
 [2026-06-15 17:19:07] PR13 merge resolved and AWS Phase 1 docs committed
+[2026-06-15 17:49:43] pr13-resolve merged — M013 complete
