@@ -96,3 +96,4 @@
 [2026-06-15 17:19:07] PR13 merge resolved and AWS Phase 1 docs committed
 [2026-06-15 17:49:43] pr13-resolve merged — M013 complete
 [2026-06-15 18:10:59] codex-review TPM fix pushed
+[2026-06-15 18:13:41] AWS Phase 2 BLOCKED: this laptop has no Docker and RDS is private/unreachable — no resources created. PART 1 codex-review fix shipped. See docs/PHASE2_REPORT.md (needs in-VPC/CodeBuild build, linux/amd64).
