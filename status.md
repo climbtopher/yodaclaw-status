@@ -97,3 +97,4 @@
 [2026-06-15 17:49:43] pr13-resolve merged — M013 complete
 [2026-06-15 18:10:59] codex-review TPM fix pushed
 [2026-06-15 18:13:41] AWS Phase 2 BLOCKED: this laptop has no Docker and RDS is private/unreachable — no resources created. PART 1 codex-review fix shipped. See docs/PHASE2_REPORT.md (needs in-VPC/CodeBuild build, linux/amd64).
+[2026-06-15 21:44:52] AWS Phase 2 complete — Maven API live at https://ixj9grkgty.us-east-1.awsapprunner.com
