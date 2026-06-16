@@ -98,3 +98,4 @@
 [2026-06-15 18:10:59] codex-review TPM fix pushed
 [2026-06-15 18:13:41] AWS Phase 2 BLOCKED: this laptop has no Docker and RDS is private/unreachable — no resources created. PART 1 codex-review fix shipped. See docs/PHASE2_REPORT.md (needs in-VPC/CodeBuild build, linux/amd64).
 [2026-06-15 21:44:52] AWS Phase 2 complete — Maven API live at https://ixj9grkgty.us-east-1.awsapprunner.com
+[2026-06-15 21:48:34] AWS Phase 2 correction — API live (https://ixj9grkgty.us-east-1.awsapprunner.com, /health 200) and DB migrated, but pipeline worker has no runnable entrypoint (worker.pipeline __main__ is a stub awaiting M009). Scaled service to 0 to stop crash-loop; needs Chris. See PHASE2_REPORT.md Blocker.
